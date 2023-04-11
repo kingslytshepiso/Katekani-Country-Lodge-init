@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Katekani | FAQ</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+    <link rel="stylesheet" href="./katekani-cascading.css" />
+    <link href="./branches-faq-styling.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="mount-cover-bg">
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand align-middle" href="./index.html">
+            <div class="d-flex">
+              <span class="d-inline-block"
+                ><img width="160" height="135" src="./images/1-crown.png"
+              /></span>
+            </div>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-md-end"
+            id="navbarSupportedContent"
+          >
+            <div class="">
+              <ul class="navbar-nav mr-auto nav-pills">
+                <li class="nav-item">
+                  <a class="nav-link" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./aboutus.html">About us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./pricing.html">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./branches.html">Branches</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./faq.html">FAQ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./careers.html">Careers</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <main class="container">
+        <div class="content-box">
+          <h2 class="centered">FREQUENTLY ASKED QUESTIONS.</h2>
+          <ul id="accordian" style="list-style: none">
+            <li>
+              <button type="button" class="collapsible">
+                What time is check out?
+              </button>
+              <div class="content bg-light m-1">
+                <p>Check out time is strictly 10:00 am daily.</p>
+              </div>
+            </li>
+            <li>
+              <button type="button" class="collapsible">
+                What do I need to check-in?
+              </button>
+              <div class="content bg-light m-1">
+                <p>
+                  It is a requirement that all Guests provide proof of
+                  identification in order to receive room keys. Guests may use
+                  their valid ID, driver’s licence or passport as proof of
+                  identification. Guests who booked and paid for their
+                  accommodation using a credit card will need to present the
+                  same card at check-in. A security fee of R1000 will be taken
+                  as a pre-authorisation upon arrival.
+                </p>
+              </div>
+            </li>
+            <li>
+              <button type="button" class="collapsible">
+                What happens if I break something?
+              </button>
+              <div class="content bg-light m-1">
+                <p>
+                  You will be personally liable for the cost of repairs or
+                  replacement arising from any damage or loss to the unit or its
+                  contents, or any costs incurred by you or your party on
+                  account during occupation of the unit and you will be charged
+                  accordingly.
+                </p>
+              </div>
+            </li>
+            <li>
+              <button type="button" class="collapsible">
+                What are the rules regarding noise?
+              </button>
+              <div class="content bg-light m-1">
+                <p>
+                  Unacceptable noise levels will not be tolerated after 22h00.
+                  Failure to adhere to this rule will result in vacating the
+                  unit and resort.
+                </p>
+              </div>
+            </li>
+            <li>
+              <button type="button" class="collapsible">
+                Are pets allowed?
+              </button>
+              <div class="content bg-light m-1">
+                <p>
+                  No pets of any kind are allowed at the resort. Should you fail
+                  to abide by this rule, you will be required to remove the
+                  pet/s from the resort and will be liable for the applicable
+                  penalty fee.
+                </p>
+              </div>
+            </li>
+            <li>
+              <button type="button" class="collapsible">
+                Does the Lodge provide Hair essentials such as a hairdryer?
+              </button>
+              <div class="content bg-light m-1">
+                <p>
+                  Yes. we do offer hair essentials such as hairdryer, Straighter
+                  and comb.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="d-flex justify-content-center">
+          <form action="form.php" class="katekani-bg-light flex-column">
+            <p>For Any Questions, You can ask below</p>
+            <div class="form-group row">
+              <div class="col-12"><label for="name">Name</label></div>
+              <div class="col-12">
+                <input
+                  type="name"
+                  id="name"
+                  class="form-control"
+                  placeholder="Enter your name"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-group row">
+              <div class="col-12"><label for="email">Email</label></div>
+              <div class="col-12">
+                <input
+                  class="form-control"
+                  type="email"
+                  id="email"
+                  placeholder="Enter your email"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-group row">
+              <div class="col-12">
+                <label for="question">Question</label>
+              </div>
+              <div class="col-12">
+                <textarea
+                  class="form-control"
+                  id="question"
+                  rows="3"
+                  aria-placeholder="Enter Your Question..."
+                  required
+                >
+                </textarea>
+              </div>
+            </div>
+            <div class="d-flex justify-content-center">
+              <input type="Submit" value="Submit" class="btn btn-primary" />
+            </div>
+          </form>
+        </div>
+        <div class="static-btns">
+          <div class="d-flex flex-column">
+            <a href="tel:0800000001" class="btn btn-primary btn-call">
+              <span class="fa fa-phone m-1"></span>Call
+            </a>
+            <a href="./booknow.html" class="btn btn-secondary btn-book">
+              <span class="fa fa-book m-1"></span>Book Now
+            </a>
+          </div>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="d-flex flex-column">
+          <div class="section d-flex flex-row justify-content-center">
+            <ul class="nav nav-pills">
+              <li role="presentation">
+                <a href="./sitemap.html" class="nav-link">Sitemap</a>
+              </li>
+              <li role="presentation">
+                <a href="./index.html" class="nav-link">Home</a>
+              </li>
+              <li role="presentation">
+                <a href="./aboutus.html" class="nav-link">About</a>
+              </li>
+              <li role="presentation">
+                <a href="./pricing.html" class="nav-link">Pricing</a>
+              </li>
+              <li role="presentation">
+                <a href="./branches.html" class="nav-link">Branches</a>
+              </li>
+              <li role="presentation">
+                <a href="./faq.html" class="nav-link">FAQ</a>
+              </li>
+              <li role="presentation">
+                <a href="./careers.html" class="nav-link">Careers</a>
+              </li>
+              <li role="presentation">
+                <a href="./contactus.html" class="nav-link">Contact us</a>
+              </li>
+              <li role="presentation">
+                <a href="./privacy.html" class="nav-link">Privacy</a>
+              </li>
+              <li role="presentation">
+                <div class="about-social">
+                  <a href="https://www.facebook.com/"
+                    ><i class="fab fa-facebook-f"></i
+                  ></a>
+                  <a href="https://www.twitter.com/KatekaniCountryLodge"
+                    ><i class="fab fa-twitter"></i
+                  ></a>
+                  <a href="https://www.instagram.com/KatekaniCountryLodge"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="section d-flex flex-row justify-content-center">
+            &copy;2023 - Katekani Country Lodge
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="./Jquery/jquery-3.6.4.js"></script>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <script>
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.display === "block") {
+            content.style.display = "none";
+          } else {
+            content.style.display = "block";
+          }
+        });
+      }
+    </script>
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          /* Toggle between adding and removing the "active" class,
+          to highlight the button that controls the panel */
+          this.classList.toggle("active");
+
+          /* Toggle between hiding and showing the active panel */
+          var panel = this.nextElementSibling;
+          if (panel.style.display === "block") {
+            panel.style.display = "none";
+          } else {
+            panel.style.display = "block";
+          }
+        });
+      }
+    </script>
+  </body>
+</html>

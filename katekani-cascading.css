@@ -1,0 +1,136 @@
+@font-face {
+  font-family: "Josefin Sans Bold";
+  src: url("./Fonts/Text/josefin-sans/JosefinSans-Bold.ttf");
+}
+@font-face {
+  font-family: "The ending";
+  src: url("./Fonts/Styled/The ending/The\ ending.ttf");
+}
+* {
+  --katekani-primary-color: #f2d3bc;
+  --temp-color: #fff3e7;
+  --katekani-secondary-color: #de9157;
+  --katekani-tertiary-color: #44240d;
+  --katekani-primary-font-color: white;
+  --katekani-scndry-font-color: black;
+  --katekani-tertiary-font-color: #aa704e;
+  font-family: "Josefin Sans Bold";
+  transition: 500ms;
+}
+
+.katekani-logo {
+  font-size: 36px;
+}
+.ending-font {
+  font-family: "The Ending";
+}
+.mount-cover-bg {
+  background-image: url("./images/mount-min.jpg");
+  background-size: cover;
+}
+/*TEMP CLASSES*/
+main {
+  min-height: 77vh;
+  border-bottom: 1px solid silver;
+}
+.navbar-toggler {
+  border: none;
+}
+.navbar-toggler:focus {
+  outline: none;
+}
+header {
+  background: var(--temp-color);
+  box-shadow: 4px 3px 5px rgba(1, 1, 1, 0.1);
+}
+footer {
+  background: var(--temp-color);
+}
+.nav-item:hover {
+  transform: scale(1.2);
+}
+.bottom-right {
+  position: relative !important;
+  right: 0px;
+  bottom: 0px;
+}
+.btn-call {
+  position: fixed;
+  right: 0px;
+  bottom: 4rem;
+  margin: 0.5em;
+  width: 7rem;
+}
+.btn-book {
+  position: fixed;
+  right: 0px;
+  bottom: 8rem;
+  margin: 0.5em;
+  width: 7rem;
+}
+.btn-primary {
+  background: var(--katekani-tertiary-color);
+  border-color: silver;
+}
+.btn-primary:hover {
+  background: white;
+  color: var(--katekani-tertiary-color);
+  border-color: silver;
+}
+.btn-primary:focus,
+.btn-primary:active {
+  box-shadow: 0 0 0 0.2rem transparent;
+  border-color: silver;
+}
+.container {
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 0;
+  margin-right: 0;
+  max-width: none;
+}
+.katekani-bg-light {
+  margin: 1em;
+  width: auto;
+  padding: 0.5em;
+  border-radius: 4px;
+  background: var(--temp-color);
+  box-shadow: 4px 3px 5px rgba(1, 1, 1, 0.1);
+  display: flex;
+}
+.katekani-bg-light-sm {
+  margin: 1em;
+  width: auto;
+  padding: 0.5em;
+  border-radius: 4px;
+  box-shadow: none;
+  display: flex;
+  background-color: transparent;
+}
+.about-social {
+  margin: 2px;
+  color: white;
+  font-size: 30px;
+  padding: 0px 10px;
+}
+.about-social a {
+  color: black;
+}
+.about-social i:hover {
+  color: var(--katekani-tertiary-color);
+}
+.sitemap-item {
+  margin: 0.5em;
+  padding: 0.2em;
+}
+.sitemap-item h4 {
+  color: black;
+}
+@media (max-width: 1200px) {
+  .nav-item:hover {
+    transform: scale(1);
+  }
+  .katekani-bg-light-sm {
+    background: var(--temp-color);
+  }
+}

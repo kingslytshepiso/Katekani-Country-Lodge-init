@@ -1,0 +1,59 @@
+#about {
+  background-image: url("./lodge.jpg");
+}
+.about-1 {
+  margin: 30px;
+  padding: 5px;
+}
+.about-1 h1 {
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+.about-1 p {
+  text-align: center;
+  padding: 6px;
+  cursor: pointer;
+}
+.about-Item {
+  margin-bottom: 20px;
+  margin-top: 2px;
+  padding: 80px, 30px;
+  box-shadow: 0 0 9px rgba(0, 0, 0 0.6);
+  cursor: pointer;
+}
+.about-Item i {
+  font-size: 43px;
+  margin: 0;
+}
+.about-Item h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.about-Item hr {
+  width: 46px;
+  height: 3px;
+  background-color: var(--katekani-tertiary-color);
+  margin: 0 auto;
+  border: none;
+}
+.about-Item {
+  margin-top: 20px;
+}
+
+.about-Item:hover i,
+.about-Item:hover h3,
+.about-Item:hover p {
+  color: var(--katekani-tertiary-color);
+}
+.about-Item:hover hr {
+  background-color: #fff;
+}
+.about-Item:hover i {
+  transform: translateY(-20px);
+}
+.about-Item:hover i,
+.about-Item:hover h3,
+.about-Item:hover hr {
+  transition: all 400ms ease-in-out;
+}
